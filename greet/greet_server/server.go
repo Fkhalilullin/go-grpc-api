@@ -13,7 +13,7 @@ type server struct{}
 
 func main() {
 	fmt.Println("Starting server")
-	
+
 	lis, err := net.Listen("tcp", "0.0.0.0:50051")
 
 	if err != nil {
